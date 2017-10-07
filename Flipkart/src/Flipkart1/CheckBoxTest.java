@@ -24,7 +24,7 @@ public class CheckBoxTest {
 	}
 	
 	
-	
+	//LaunchDriver
 	public static void LaunchDriver() throws InterruptedException{
 		System.setProperty("webdriver.chrome.driver", "E:\\KnowledgeRepo\\chromedriver.exe");
 		driver = new ChromeDriver();
