@@ -49,11 +49,11 @@ public class MoastMassage extends BasePage{
 			clickOnSignIn.click();
 			Thread.sleep(2000);
 			emailID.clear();
-			emailID.sendKeys("arti.kote8808@gmail.com");
+			emailID.sendKeys("********");
 			//emailID.sendKeys(data.get("Email"));
 			Thread.sleep(2000);
 			password.clear();
-			password.sendKeys("a741157880");
+			password.sendKeys("********");
 			//password.sendKeys(data.get("Password"));
 			Thread.sleep(2000);
 			loginButton.click();
