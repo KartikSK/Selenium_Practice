@@ -41,12 +41,12 @@ public class Flip {
 		//Thread.sleep(2000);
 		driver.switchTo().frame("loginIframe");
 		//driver.findElement(By.xpath(".//*[@id='userName']")).click();
-		driver.findElement(By.xpath("//*[@id='userName']")).sendKeys("9740229828");
+		driver.findElement(By.xpath("//*[@id='userName']")).sendKeys("*********");
 		System.out.println("Clicked UserName");
 		driver.findElement(By.xpath("//*[@id='checkUser']")).click();
 		System.out.println("Clicked Continue");
 		//Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id='j_password_login_uc']")).sendKeys("nalinimp17");
+		driver.findElement(By.xpath("//*[@id='j_password_login_uc']")).sendKeys("*******");
 		System.out.println("password sent");
 		driver.findElement(By.id("submitLoginUC")).click();
 	}
