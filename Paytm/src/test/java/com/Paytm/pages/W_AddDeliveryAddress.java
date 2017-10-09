@@ -62,7 +62,7 @@ public class W_AddDeliveryAddress extends BasePage{
 		state.sendKeys("Karnataka");
 		Thread.sleep(2000);
 		mobileNo.clear();
-		mobileNo.sendKeys("8553551284");
+		mobileNo.sendKeys("1234567890");
 		Thread.sleep(2000);
 		saveAddress.click();
 		Thread.sleep(2000);
